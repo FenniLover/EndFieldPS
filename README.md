@@ -19,7 +19,7 @@ EndFieldPS是服务于EndField CBT2 的私人服务器。
    * 在安装 *Fiddler Classic*时, 确保 **enable（启用）** "Decrypt HTTPS traffic（解密 HTTPS 流量）" 并 **install（安装）** 证书！
    * 你必须通过“工具”（即菜单栏左上角） -> Options -> HTTPS -> 勾选 "Capture HTTPS CONNECTs" 以及 "Decrypt HTTPS traffic". 当然你也可以选择操作 (在"Capture HTTPS CONNECTs"旁边的) -> Trust Root Certificate 然后按下 "Yes"
 2. 下载 [预编译构建版本](https://github.com/SuikoAkari/EndFieldPS/releases/latest) 或自行构建。
-3.  将 `Json` 和 `TableCfg` 文件夹放入 `EndFieldPS.exe` 文件夹（可在 [此处](https://github.com/PotRooms/EndFieldData/tree/main) 下载需要的副本）。
+3.  将 Json 和 TableCfg 文件夹放入与 EndFieldPS.exe 同一目录的文件夹（可在 [此处](https://github.com/PotRooms/EndFieldData/tree/main) 下载需要的副本）。
 4. 运行服务器 (`EndFieldPS.exe`)
 5. 用以下代理脚本进行覆盖`C:\Users\<YourUserName>\Documents\Fiddler2\Scripts\CustomRules.js`路径中的脚本（或备份默认脚本并创建一个同名的新文件）：
     * 您也可以选择运行 *Fiddler Classic*, 进入 `Rules -> Customize Rules` （CTRL + R）并保存，或选择 “*FiddlerScript*”选项卡。
